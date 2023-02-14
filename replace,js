@@ -1,0 +1,12 @@
+var a=require("readline-sync")
+a=a.questionInt("enter the number:-")
+if (a>=1000){
+    console.log(a/10)
+}
+else{
+    console.log(a)
+}
+
+
+
+// const num='1,123,1234'.replace('/')
